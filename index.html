@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zombie Apocalypse Survival</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      background: #000;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    header .logo {
+      width: 150px;
+      height: auto;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #e74c3c;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 150px 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      background: #e74c3c;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .hero a:hover {
+      background: #c0392b;
+    }
+
+    .footer {
+      margin-top: auto;
+      background: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .footer-header h2 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .footer-column {
+      text-align: left;
+    }
+
+    .footer-column h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li a {
+      color: #e74c3c;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<video class="video-bg" autoplay muted loop>
+  <source src="img/videoplayback.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<header>
+  <a href="index.html"><img src="img/logo.png" class="logo"></a>
+  <nav>
+    <a href="guide.html">좀비의 기원</a>
+    <a href="survive.html">생존 가이드</a>
+    <a href="weapons.html">좀비 유형과 특징</a>
+    <a href="shelters.html">좀비의 경제적 영향</a>
+    <a href="contact.html">감염 증상과 대처</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Prepare for the Apocalypse</h2>
+  <p>언데드에 맞설 준비가 되었나요? 좀비로 뒤덮인 세상에서 생존하고 살아남는 법을 배워보세요.</p>
+  <a href="guide.html">Start Your Journey</a>
+</div>
+
+<footer class="footer">
+  <div class="footer-header">
+    <h2>Zombie Survival Headquarters</h2>
+    <p>Prepare, Survive, and Thrive in the Apocalypse</p>
+  </div>
+  <div class="footer-links">
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#guide">Survival Guide</a></li>
+        <li><a href="#weapons">Weapons</a></li>
+        <li><a href="#shelters">Shelters</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="#map">Safe Zone Map</a></li>
+        <li><a href="#tips">Survival Tips</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#emergency">Emergency Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Zombie Survival. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
