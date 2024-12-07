@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symptoms of Infection and Countermeasures</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      background: #000;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    header .logo {
+      width: 150px;
+      height: auto;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #e74c3c;
+    }
+
+    h3#main_title {
+      text-align: center;
+    }
+
+    .list_container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .list_item {
+      height: 130px;
+      margin: 20px 0;
+      border-bottom: solid 1px #ccc;
+      display: flex;
+      align-items: center;
+    }
+
+    .image {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+    }
+
+    .image img {
+      width: 100px;
+      height: 100px;
+      border-radius: 12px;
+    }
+
+    .intro {
+      width: 300px;
+      font-size: 16px;
+    }
+
+    .price {
+      width: 150px;
+      font-size: 16px;
+    }
+
+    .red {
+      font-weight: bold;
+      color: red;
+    }
+
+    .small {
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+    .writer {
+      width: 100px;
+    }
+
+    .footer {
+      margin-top: auto;
+      background: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .footer-header h2 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .footer-column {
+      text-align: left;
+    }
+
+    .footer-column h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li a {
+      color: #e74c3c;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><img src="img/logo.png" class="logo"></a>
+    <nav>
+      <a href="guide.html">좀비의 기원</a>
+      <a href="survive.html">생존 가이드</a>
+      <a href="weapons.html">좀비 유형과 특징</a>
+      <a href="shelters.html">좀비의 경제적 영향</a>
+      <a href="contact.html">감염 증상과 대처</a>
+    </nav>
+  </header>
+
+  <h3 id="main_title">감염 증상과 대처 방법</h3>
+
+  <div class="list_container">
+    <div class="list_item">
+      <div class="image"><img src="img/symptom1.jpg"></div>
+      <div class="intro">1단계: 초기 감염</div>
+      <ul class="price">
+        <li class="red">발열과 오한</li>
+        <li class="small">이 시기에 치료가 중요합니다.</li>
+      </ul>
+      <div class="writer">즉각적인 대응 필요</div>
+    </div>
+
+    <div class="list_item">
+      <div class="image"><img src="img/symptom2.jpg"></div>
+      <div class="intro">2단계: 감각 이상 및 초기 행동 변화</div>
+      <ul class="price">
+        <li class="red">신경 과민</li>
+        <li class="small">정신적 혼란이 발생할 수 있습니다.</li>
+      </ul>
+      <div class="writer">격리 필요</div>
+    </div>
+
+    <div class="list_item">
+      <div class="image"><img src="img/symptom3.jpg"></div>
+      <div class="intro">3단계: 신체 변형</div>
+      <ul class="price">
+        <li class="red">신체적 변화</li>
+        <li class="small">정신 이상 증세가 심해집니다.</li>
+      </ul>
+      <div class="writer">경계 상태</div>
+    </div>
+
+    <div class="list_item">
+      <div class="image"><img src="img/symptom4.jpg"></div>
+      <div class="intro">4단계: 완전한 좀비화</div>
+      <ul class="price">
+        <li class="red">치명적 상태</li>
+        <li class="small">대응이 불가능합니다.</li>
+      </ul>
+      <div class="writer">도주 권장</div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-header">
+      <h2>Zombie Survival Headquarters</h2>
+      <p>Prepare, Survive, and Thrive in the Apocalypse</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#guide">Survival Guide</a></li>
+          <li><a href="#weapons">Weapons</a></li>
+          <li><a href="#shelters">Shelters</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#map">Safe Zone Map</a></li>
+          <li><a href="#tips">Survival Tips</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#emergency">Emergency Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Zombie Survival. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

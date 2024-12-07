@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zombie Types and Characteristics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    header .logo {
+      width: 150px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #e74c3c;
+    }
+
+    .title {
+      text-align: center;
+      margin: 40px 0 20px 0;
+    }
+
+    .title h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .title p {
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    .zombie-section {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto 30px;
+      padding: 20px;
+      background-color: #222;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .zombie-section img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+      background-color: #444;
+    }
+
+    .zombie-info {
+      flex: 1;
+    }
+
+    .zombie-info h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .zombie-info p {
+      margin: 5px 0;
+      color: #ccc;
+    }
+
+    .zombie-info .danger {
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+    .zombie-info .strategy {
+      color: #3498db;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: auto;
+      background: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .footer-header h2 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .footer-column {
+      text-align: left;
+    }
+
+    .footer-column h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li a {
+      color: #e74c3c;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .footer-column ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><img src="img/logo.png" class="logo"></a>
+    <nav>
+      <a href="guide.html">좀비의 기원</a>
+      <a href="survive.html">생존 가이드</a>
+      <a href="weapons.html">좀비 유형과 특징</a>
+      <a href="shelters.html">좀비의 경제적 영향</a>
+      <a href="contact.html">감염 증상과 대처</a>
+    </nav>
+  </header>
+
+  <div class="title">
+    <h1>Types of Zombies and Their Characteristics</h1>
+    <p>다양한 좀비에 대한 특성을 알아보고 이에 대해 대처하자</p>
+  </div>
+
+  <div class="zombie-section">
+    <img src="img/slow-zombie.jpg">
+    <div class="zombie-info">
+      <h2>느린 좀비</h2>
+      <p><strong>특징:</strong> 걸음이 느리고 둔하지만, 끈질기고 집요하게 추격한다.</p>
+      <p class="danger"><strong>위험:</strong> 대규모로 몰려올 때 위험적이며, 긴장감을 유발한다.</p>
+      <p class="strategy"><strong>생존 전략:</strong> 이동 속도가 느리기 때문에 충분히 거리를 유지하고 빠르게 도망가는 생존 전략이 중요하다.</p>
+    </div>
+  </div>
+
+  <div class="zombie-section">
+    <img src="img/fast-zombie.jpg">
+    <div class="zombie-info">
+      <h2>빠른 좀비</h2>
+      <p><strong>특징:</strong> 빠르게 달리고, 공격적인 성향을 보이며, 민첩성이 뛰어나다.</p>
+      <p class="danger"><strong>위험:</strong> 속도와 민첩성으로 인해 도망치거나 숨어있는 생존자들에게 큰 위협이 된다.</p>
+      <p class="strategy"><strong>생존 전략:</strong> 체력 소모를 최소화하며 은신처를 찾아야 한다.</p>
+    </div>
+  </div>
+
+  <div class="zombie-section">
+    <img src="img/infected-zombie.jpg">
+    <div class="zombie-info">
+      <h2>감염형 좀비</h2>
+      <p><strong>특징:</strong> 전염병, 바이러스 또는 기생충에 의해 만들어진 좀비로, 감염 속도가 매우 빠르다.</p>
+      <p class="danger"><strong>위험:</strong> 물리거나 접촉하면 쉽게 감염되므로, 직접적인 전투를 피해야 한다.</p>
+      <p class="strategy"><strong>생존 전략:</strong> 방호복과 무기를 사용해 접근을 차단하고, 감염 지역을 우회하라.</p>
+    </div>
+  </div>
+
+  <div class="zombie-section">
+    <img src="img/intelligent-zombie.jpg">
+    <div class="zombie-info">
+      <h2>지능형 좀비</h2>
+      <p><strong>특징:</strong> 단순한 본능 외에 기본적인 지능을 가지며, 도구를 사용하거나 함정을 설치하는 등의 행동을 보인다.</p>
+      <p class="danger"><strong>위험:</strong> 예상 가능한 행동을 넘어 창의적인 공격을 감행할 수 있어 생존 전략을 세우기 어렵다.</p>
+      <p class="strategy"><strong>생존 전략:</strong> 행동 패턴을 면밀히 분석하고, 조직적인 대처 팀이 필요하다.</p>
+    </div>
+  </div>
+  
+  <div class="zombie-section">
+    <img src="img/mutant-zombie.jpg">
+    <div class="zombie-info">
+      <h2>변종 좀비</h2>
+      <p><strong>특징:</strong> 감염 중 돌연변이에 의해 외모와 능력의 변형을 가진 좀비. 신체적 힘이 강화되거나 특별한 능력이 있다.</p>
+      <p class="danger"><strong>위험:</strong> 일반적인 좀비보다 강력하고 다양한 형태로 변이되어 생존자들을 습격할 수 있다.</p>
+      <p class="strategy"><strong>생존 전략:</strong> 약점(머리, 특정 기관)을 찾아 치명적인 공격을 가해야 한다.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-header">
+      <h2>Zombie Survival Headquarters</h2>
+      <p>Prepare, Survive, and Thrive in the Apocalypse</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#guide">Survival Guide</a></li>
+          <li><a href="#weapons">Weapons</a></li>
+          <li><a href="#shelters">Shelters</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#map">Safe Zone Map</a></li>
+          <li><a href="#tips">Survival Tips</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#emergency">Emergency Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Zombie Survival. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
